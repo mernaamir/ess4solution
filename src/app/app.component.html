@@ -1,9 +1,18 @@
+<nav class="navbar navbar-light bg-light">
+  <div class="container-fluied">
+    <a class="navbar-brand ma-5" href="#">Logo
+      <!-- <img src="/docs/5.0/assets/brand/bootstrap-logo.svg" alt="" width="30" height="24"> -->
+    </a>
+  </div>
+</nav>
+
+
 <header>
-  <nav id="sidebarMenu" class="collapse d-lg-block sidebar collapse bg-white">
+  <nav id="sidebarMenu" class="collapse d-lg-block sidebar collapse ">
     <div class="position-sticky">
-      <div class="list-group list-group-flush mx-3 mt-4">
+      <div class=" list-group-flush mx-3 mt-5">
         
-        <div *ngFor="let el of menu" >
+        <div class="design-item"*ngFor="let el of menu" >
           <a (click)="changeActiveElement(el)" [ngClass]="{'active' : el.active}"class="list-group-item list-group-item-action py-1 ripple cursor-pointer" data-bs-toggle="collapse" [attr.data-bs-target]="'#collapse'+el.funKey" aria-expanded="false">
             {{el.funEname}}
           </a>
@@ -25,7 +34,8 @@
   </div>
 </header>
 
-<main style="margin-top: 58px;">
+<main >
+  <!-- style="margin-top: 58px;" -->
   <div class="container pt-4">
     <app-clients [hidden]="activeTab!='Clients'"></app-clients>
     <app-customers [hidden]="activeTab!='Customers'"></app-customers>
