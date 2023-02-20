@@ -1,0 +1,121 @@
+<div class="row justify-content-center">
+    <div (click)="open(addClient)" class="col-lg-2 col-md-4 col-5 btn btn-primary mt-2"><i class="fa fa-plus"> </i> Add New Client </div>
+</div>
+<div *ngIf="clientsArr.length != 0" class="p-0" style="overflow-x: auto">
+    <table class="table">
+        <thead class="thead-light">
+            <tr>
+                <th>#</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>ACTION</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor=" let client of clientsArr">
+                <td>{{client.id}}</td>
+                <td class="name-table">{{ client.firstName }}</td>
+                <td>{{ client.lastName }}</td>
+             
+                <td>
+                    <i style="margin-left: 5px" (click)="editClient(client,EditClient)" class="fa fa-edit"></i>
+                    <i (click)="DeleteClient(client,deleteClient)" class="fa fa-trash"></i>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<ng-template #addClient let-modal>
+    <div class="modal-content">
+        <div class="modal-header">
+            <div class="modal-custom-header-add">
+                <h5 class="modal-title" id="exampleModalLabel">Add New Client</h5>
+            </div>
+            <div (click)="modal.close()" class="btn-close" aria-label="Close"> </div>
+        </div>
+        <div class="modal-body">
+            <div class="form-group mt-3">
+                <div style="display: flex; flex-wrap: nowrap; height: 30px;">
+                    <label> First Name</label>
+                    <span *ngIf="FirstName.invalid" class="alert" style="color: red; white-space: nowrap;line-height: 0; padding: 0; margin-top: 8px;">
+                        <div *ngIf="FirstName.errors?.['required']">
+                            *
+                        </div>
+                    </span>
+                </div>
+                <input name="FirstName" required #FirstName="ngModel" [(ngModel)]="firstName" id="FirstName" type="text" class="form-control">
+            </div>
+            <div class="form-group mt-4">
+                <div style="display: flex; flex-wrap: nowrap; height: 30px;">
+                    <label> Last Name</label>
+                    <span *ngIf="SecondName.invalid" class="alert" style="color: red; white-space: nowrap;line-height: 0; padding: 0; margin-top: 8px;">
+                        <div *ngIf="SecondName.errors?.['required']">
+                            *
+                        </div>
+                    </span>
+                </div>
+                <input name="SecondName" required #SecondName="ngModel" [(ngModel)]="lastName" id="SecondName" type="text" class="form-control">
+            </div>
+        </div>
+        <div class="modal-footer">
+            <button (click)="addNewClient()" [disabled]="FirstName.invalid || SecondName.invalid" class="btn btn-primary" type="button">Add</button>
+        </div>
+    </div>
+</ng-template>
+
+<ng-template #EditClient let-modal>
+    <div *ngIf="editedClient" class="modal-content">
+        <div class="modal-header">
+            <div class="modal-custom-header-add">
+                <h5 class="modal-title" id="exampleModalLabel"> Edit Client</h5>
+            </div>
+            <div (click)="modal.close()" class="btn-close" aria-label="Close"> <i class="fa fa-close"></i></div>
+        </div>
+        <div class="modal-body">
+
+            <div class="form-group mt-3">
+                <div style="display: flex; flex-wrap: nowrap; height: 30px;">
+                    <label for="EditFirstName">First Name</label>
+                    <span *ngIf="EditFirstName.invalid" class="alert" style="color: red; white-space: nowrap;line-height: 0; padding: 0; margin-top: 8px;">
+                        <div *ngIf="EditFirstName.errors?.['required']">
+                            *
+                        </div>
+                    </span>
+                </div>
+                <input name="EditFirstName" required #EditFirstName="ngModel" [(ngModel)]="editedClient.firstName" id="EditFirstName" type="text" class="form-control">
+            </div>
+            <div class="form-group mt-4">
+                <div style="display: flex; flex-wrap: nowrap; height: 30px;">
+                    <label for="EditSecondName">Last Name</label>
+                    <span *ngIf="EditSecondName.invalid" class="alert" style="color: red; white-space: nowrap;line-height: 0; padding: 0; margin-top: 8px;">
+                        <div *ngIf="EditSecondName.errors?.['required']">
+                            *
+                        </div>
+                    </span>
+                </div>
+                <input name="EditSecondName" required #EditSecondName="ngModel" [(ngModel)]="editedClient.lastName" id="EditSecondName" type="text" class="form-control">
+              
+            </div>
+        </div>
+        <div class="modal-footer">
+            <button (click)="updateClient()" [disabled]="EditFirstName.invalid || EditSecondName.invalid " class="btn btn-primary" type="button">Edit</button>
+        </div>
+    </div>
+</ng-template>
+
+<ng-template #deleteClient let-modal>
+    <div class="modal-content">
+        <div class="modal-header delete-modal-header" style="justify-content: flex-start;">
+            <i style="font-size: 30px; margin:0 10px;" class="fa fa-info-circle" aria-hidden="true"></i>
+            <h5 class="modal-title" id="exampleModalLabel"> Delete Client</h5>
+        </div>
+        <div class="modal-body">
+            <p style="font-size: 18px;text-align: center;margin: 0;"> Are yu sure you want to delete this record?</p>
+        </div>
+        <div class="modal-footer" style="justify-content: center;">
+            <div (click)="onDeleteClient()" style="background-color:#FF5251;color: white;" class="btn"> Yes</div>
+            <div (click)="modal.close()" style="border-color:#8B8B8B;color:#8B8B8B" class="btn"> Cancel</div>
+        </div>
+    </div>
+</ng-template>

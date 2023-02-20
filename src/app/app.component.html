@@ -1,0 +1,33 @@
+<header>
+  <nav id="sidebarMenu" class="collapse d-lg-block sidebar collapse bg-white">
+    <div class="position-sticky">
+      <div class="list-group list-group-flush mx-3 mt-4">
+        
+        <div *ngFor="let el of menu" >
+          <a (click)="changeActiveElement(el)" [ngClass]="{'active' : el.active}"class="list-group-item list-group-item-action py-1 ripple cursor-pointer" data-bs-toggle="collapse" [attr.data-bs-target]="'#collapse'+el.funKey" aria-expanded="false">
+            {{el.funEname}}
+          </a>
+          <div class="collapse ps-4" id="collapse{{el.funKey}}">
+            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+              <li *ngFor="let child of el.childs" class="p-1"><a (click)="openTab(child)" class="link-dark d-inline-flex text-decoration-none rounded cursor-pointer">{{child.funEname}}</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div class="tabs">
+    <ul class="nav nav-tabs" >
+      <li class="nav-item cursor-pointer" *ngFor="let tab of tabs" (click)="changeActiveTab(tab)">
+        <a [ngClass]="{'active':tab.active}" class="nav-link" aria-current="page" >{{tab.name}} <i (click)="closeTab(tab.name)" class="fa fa-times"></i></a>
+      </li>
+    </ul>
+  </div>
+</header>
+
+<main style="margin-top: 58px;">
+  <div class="container pt-4">
+    <app-clients [hidden]="activeTab!='Clients'"></app-clients>
+    <app-customers [hidden]="activeTab!='Customers'"></app-customers>
+  </div>
+</main>

@@ -1,0 +1,1219 @@
+[
+    {
+      "funKey": 96,
+      "entityKey": 0,
+      "funEname": "People",
+      "funAname": "الأشخاص",
+      "funRoute": "",
+      "funArgument": "",
+      "funLevel": 0,
+      "funParentKey": 0,
+      "funcIconsClass": "fa-solid fa-chart-line",
+      "sorting": 0,
+      "isActionfunc": 0,
+      "functionClaims": [],
+      "childs": [
+        {
+          "funKey": 97,
+          "entityKey": 0,
+          "funEname": "Customers",
+          "funAname": "الزبائن",
+          "funRoute": "/home/office-charts",
+          "funArgument": "",
+          "funLevel": 1,
+          "funParentKey": 96,
+          "funcIconsClass": "",
+          "sorting": 1,
+          "isActionfunc": 1,
+          "functionClaims": [],
+          "childs": []
+        },
+        {
+          "funKey": 98,
+          "entityKey": 0,
+          "funEname": "Clients",
+          "funAname": "العملاء",
+          "funRoute": "/home/buildings-charts",
+          "funArgument": "",
+          "funLevel": 1,
+          "funParentKey": 96,
+          "funcIconsClass": "",
+          "sorting": 2,
+          "isActionfunc": 1,
+          "functionClaims": [],
+          "childs": []
+        }
+      ]
+    },
+    {
+      "funKey": 77,
+      "entityKey": 0,
+      "funEname": "Dashboard",
+      "funAname": "لوحة التحكم",
+      "funRoute": "",
+      "funArgument": "",
+      "funLevel": 0,
+      "funParentKey": 0,
+      "funcIconsClass": "fa-solid fa-chart-line",
+      "sorting": 1,
+      "isActionfunc": 0,
+      "functionClaims": [],
+      "childs": [
+        {
+          "funKey": 92,
+          "entityKey": 0,
+          "funEname": "General code",
+          "funAname": "الاكواد العامه",
+          "funRoute": "/home/lockups/all",
+          "funArgument": "",
+          "funLevel": 1,
+          "funParentKey": 77,
+          "funcIconsClass": "",
+          "sorting": 1,
+          "isActionfunc": 1,
+          "functionClaims": [
+            {
+              "cliamKey": 0,
+              "funKey": 92,
+              "cliams_LockId": 1
+            },
+            {
+              "cliamKey": 0,
+              "funKey": 92,
+              "cliams_LockId": 2
+            },
+            {
+              "cliamKey": 0,
+              "funKey": 92,
+              "cliams_LockId": 3
+            },
+            {
+              "cliamKey": 0,
+              "funKey": 92,
+              "cliams_LockId": 4
+            },
+            {
+              "cliamKey": 0,
+              "funKey": 92,
+              "cliams_LockId": 5
+            }
+          ],
+          "childs": []
+        },
+        {
+          "funKey": 93,
+          "entityKey": 0,
+          "funEname": "User definitions",
+          "funAname": "بيانات وصلاحيات المستخدم",
+          "funRoute": "/home/users/all",
+          "funArgument": "",
+          "funLevel": 1,
+          "funParentKey": 77,
+          "funcIconsClass": "",
+          "sorting": 1,
+          "isActionfunc": 1,
+          "functionClaims": [],
+          "childs": []
+        }
+      ]
+    },
+    {
+      "funKey": 10,
+      "entityKey": 0,
+      "funEname": "Buildings",
+      "funAname": "المبانى",
+      "funRoute": "",
+      "funArgument": "",
+      "funLevel": 0,
+      "funParentKey": 0,
+      "funcIconsClass": "fa-solid fa-building",
+      "sorting": 1,
+      "isActionfunc": 0,
+      "functionClaims": [],
+      "childs": [
+        {
+          "funKey": 11,
+          "entityKey": 0,
+          "funEname": "Main Buildings",
+          "funAname": "المبانى الرئيسيه",
+          "funRoute": "/home/main-buildings/all",
+          "funArgument": "",
+          "funLevel": 1,
+          "funParentKey": 10,
+          "funcIconsClass": "",
+          "sorting": 0,
+          "isActionfunc": 1,
+          "functionClaims": [],
+          "childs": []
+        },
+        {
+          "funKey": 12,
+          "entityKey": 0,
+          "funEname": "Sub Buildings",
+          "funAname": "المبانى الفرعيه",
+          "funRoute": "/home/sub-buildings/all",
+          "funArgument": "",
+          "funLevel": 1,
+          "funParentKey": 10,
+          "funcIconsClass": "",
+          "sorting": 0,
+          "isActionfunc": 1,
+          "functionClaims": [],
+          "childs": []
+        },
+        {
+          "funKey": 13,
+          "entityKey": 0,
+          "funEname": "Sub Buildings Status",
+          "funAname": "حاله المبانى الفرعيه",
+          "funRoute": "/home/building-status",
+          "funArgument": "",
+          "funLevel": 1,
+          "funParentKey": 10,
+          "funcIconsClass": "",
+          "sorting": 0,
+          "isActionfunc": 1,
+          "functionClaims": [],
+          "childs": []
+        },
+        {
+          "funKey": 108,
+          "entityKey": 0,
+          "funEname": "Sub real estate query",
+          "funAname": "استعلام العقارات الفرعية",
+          "funRoute": "/home/Sub_realestate_query",
+          "funArgument": "",
+          "funLevel": 1,
+          "funParentKey": 10,
+          "funcIconsClass": "",
+          "sorting": 10,
+          "isActionfunc": 1,
+          "functionClaims": [],
+          "childs": []
+        }
+      ]
+    },
+    {
+      "funKey": 6,
+      "entityKey": 0,
+      "funEname": "Definition ",
+      "funAname": "ملف",
+      "funRoute": "",
+      "funArgument": "",
+      "funLevel": 0,
+      "funParentKey": 0,
+      "funcIconsClass": "fa-solid fa-quote-left",
+      "sorting": 1,
+      "isActionfunc": 0,
+      "functionClaims": [],
+      "childs": [
+        {
+          "funKey": 7,
+          "entityKey": 0,
+          "funEname": "User definitions",
+          "funAname": "تعريفات المستخدمين",
+          "funRoute": "/home/users/all",
+          "funArgument": "",
+          "funLevel": 1,
+          "funParentKey": 6,
+          "funcIconsClass": "",
+          "sorting": 2,
+          "isActionfunc": 1,
+          "functionClaims": [],
+          "childs": []
+        },
+        {
+          "funKey": 8,
+          "entityKey": 0,
+          "funEname": "Owners data",
+          "funAname": "بيانات الملاك",
+          "funRoute": "/home/OwenrsRealStats/all",
+          "funArgument": "",
+          "funLevel": 1,
+          "funParentKey": 6,
+          "funcIconsClass": "",
+          "sorting": 3,
+          "isActionfunc": 1,
+          "functionClaims": [],
+          "childs": []
+        },
+        {
+          "funKey": 46,
+          "entityKey": 0,
+          "funEname": "Customers data",
+          "funAname": "بيانات العملاء",
+          "funRoute": "/home/customers/all-customers",
+          "funArgument": "",
+          "funLevel": 1,
+          "funParentKey": 6,
+          "funcIconsClass": "",
+          "sorting": 4,
+          "isActionfunc": 1,
+          "functionClaims": [
+            {
+              "cliamKey": 0,
+              "funKey": 46,
+              "cliams_LockId": 1
+            },
+            {
+              "cliamKey": 0,
+              "funKey": 46,
+              "cliams_LockId": 2
+            },
+            {
+              "cliamKey": 0,
+              "funKey": 46,
+              "cliams_LockId": 3
+            },
+            {
+              "cliamKey": 0,
+              "funKey": 46,
+              "cliams_LockId": 5
+            },
+            {
+              "cliamKey": 0,
+              "funKey": 46,
+              "cliams_LockId": 6
+            }
+          ],
+          "childs": []
+        },
+        {
+          "funKey": 61,
+          "entityKey": 0,
+          "funEname": "Bank Data",
+          "funAname": "بيانات البنوك",
+          "funRoute": "/home/bank-statement/all",
+          "funArgument": "",
+          "funLevel": 1,
+          "funParentKey": 6,
+          "funcIconsClass": "",
+          "sorting": 5,
+          "isActionfunc": 1,
+          "functionClaims": [],
+          "childs": []
+        },
+        {
+          "funKey": 62,
+          "entityKey": 0,
+          "funEname": "Owner payment voucher",
+          "funAname": "سند صرف للملاك",
+          "funRoute": "/home/owner-take/all",
+          "funArgument": "",
+          "funLevel": 1,
+          "funParentKey": 6,
+          "funcIconsClass": "",
+          "sorting": 6,
+          "isActionfunc": 1,
+          "functionClaims": [],
+          "childs": []
+        },
+        {
+          "funKey": 63,
+          "entityKey": 0,
+          "funEname": "Owner receipt voucher",
+          "funAname": "سند قبض من الملاك",
+          "funRoute": "/home/owner-receipt/all",
+          "funArgument": "",
+          "funLevel": 1,
+          "funParentKey": 6,
+          "funcIconsClass": "",
+          "sorting": 7,
+          "isActionfunc": 1,
+          "functionClaims": [],
+          "childs": []
+        },
+        {
+          "funKey": 66,
+          "entityKey": 0,
+          "funEname": "Expenses Categories",
+          "funAname": "فئات الصرف",
+          "funRoute": "/home/exchange-categories/all",
+          "funArgument": "",
+          "funLevel": 1,
+          "funParentKey": 6,
+          "funcIconsClass": "",
+          "sorting": 8,
+          "isActionfunc": 1,
+          "functionClaims": [],
+          "childs": []
+        },
+        {
+          "funKey": 67,
+          "entityKey": 0,
+          "funEname": "Expenses Beneficiaries",
+          "funAname": "مستفدين الصرف",
+          "funRoute": "/home/exchange-beneficiaries/all",
+          "funArgument": "",
+          "funLevel": 1,
+          "funParentKey": 6,
+          "funcIconsClass": "",
+          "sorting": 8,
+          "isActionfunc": 1,
+          "functionClaims": [],
+          "childs": []
+        },
+        {
+          "funKey": 70,
+          "entityKey": 0,
+          "funEname": "Customers Orders",
+          "funAname": "طلبات العملاء",
+          "funRoute": "/home/customers-orders/all",
+          "funArgument": "",
+          "funLevel": 1,
+          "funParentKey": 6,
+          "funcIconsClass": "",
+          "sorting": 10,
+          "isActionfunc": 1,
+          "functionClaims": [],
+          "childs": []
+        }
+      ]
+    },
+    {
+      "funKey": 14,
+      "entityKey": 0,
+      "funEname": "Contracts",
+      "funAname": "العقود",
+      "funRoute": "",
+      "funArgument": "",
+      "funLevel": 0,
+      "funParentKey": 0,
+      "funcIconsClass": "fa-solid fa-file-signature",
+      "sorting": 2,
+      "isActionfunc": 0,
+      "functionClaims": [],
+      "childs": [
+        {
+          "funKey": 15,
+          "entityKey": 0,
+          "funEname": "Contract Forms",
+          "funAname": "نماذج العقود",
+          "funRoute": "/home/contract-forms/all",
+          "funArgument": "",
+          "funLevel": 1,
+          "funParentKey": 14,
+          "funcIconsClass": "",
+          "sorting": 0,
+          "isActionfunc": 1,
+          "functionClaims": [],
+          "childs": []
+        },
+        {
+          "funKey": 16,
+          "entityKey": 0,
+          "funEname": "Contract Conditions",
+          "funAname": "شروط العقود",
+          "funRoute": "/home/contract-conditions/all",
+          "funArgument": "",
+          "funLevel": 1,
+          "funParentKey": 14,
+          "funcIconsClass": "",
+          "sorting": 0,
+          "isActionfunc": 1,
+          "functionClaims": [],
+          "childs": []
+        },
+        {
+          "funKey": 17,
+          "entityKey": 0,
+          "funEname": "Office lease contract",
+          "funAname": "عقد ايجار للمكتب",
+          "funRoute": "/home/rent-contract/all",
+          "funArgument": "",
+          "funLevel": 1,
+          "funParentKey": 14,
+          "funcIconsClass": "",
+          "sorting": 0,
+          "isActionfunc": 1,
+          "functionClaims": [
+            {
+              "cliamKey": 0,
+              "funKey": 17,
+              "cliams_LockId": 1
+            },
+            {
+              "cliamKey": 0,
+              "funKey": 17,
+              "cliams_LockId": 2
+            },
+            {
+              "cliamKey": 0,
+              "funKey": 17,
+              "cliams_LockId": 3
+            },
+            {
+              "cliamKey": 0,
+              "funKey": 17,
+              "cliams_LockId": 4
+            },
+            {
+              "cliamKey": 0,
+              "funKey": 17,
+              "cliams_LockId": 5
+            },
+            {
+              "cliamKey": 0,
+              "funKey": 17,
+              "cliams_LockId": 6
+            }
+          ],
+          "childs": []
+        },
+        {
+          "funKey": 19,
+          "entityKey": 0,
+          "funEname": "Rent contract external",
+          "funAname": "عقد ايجار خارجى",
+          "funRoute": "/home/rent-contract-external/all",
+          "funArgument": "",
+          "funLevel": 1,
+          "funParentKey": 14,
+          "funcIconsClass": "",
+          "sorting": 0,
+          "isActionfunc": 1,
+          "functionClaims": [],
+          "childs": []
+        },
+        {
+          "funKey": 20,
+          "entityKey": 0,
+          "funEname": "عقد اداره املاك",
+          "funAname": "عقد اداره املاك",
+          "funRoute": "",
+          "funArgument": "",
+          "funLevel": 1,
+          "funParentKey": 14,
+          "funcIconsClass": "",
+          "sorting": 0,
+          "isActionfunc": 1,
+          "functionClaims": [],
+          "childs": []
+        },
+        {
+          "funKey": 21,
+          "entityKey": 0,
+          "funEname": "شروط عقد ادراه  املاك",
+          "funAname": "شروط عقد ادراه  املاك",
+          "funRoute": "",
+          "funArgument": "",
+          "funLevel": 1,
+          "funParentKey": 14,
+          "funcIconsClass": "",
+          "sorting": 0,
+          "isActionfunc": 1,
+          "functionClaims": [],
+          "childs": []
+        },
+        {
+          "funKey": 22,
+          "entityKey": 0,
+          "funEname": "عقد بيع",
+          "funAname": "عقد بيع",
+          "funRoute": "",
+          "funArgument": "",
+          "funLevel": 1,
+          "funParentKey": 14,
+          "funcIconsClass": "",
+          "sorting": 0,
+          "isActionfunc": 1,
+          "functionClaims": [],
+          "childs": []
+        },
+        {
+          "funKey": 81,
+          "entityKey": 0,
+          "funEname": "Operations on lease contracts",
+          "funAname": "عمليات علي عقود الايجار",
+          "funRoute": "/home/operations-oncontracts/all",
+          "funArgument": "",
+          "funLevel": 1,
+          "funParentKey": 14,
+          "funcIconsClass": "",
+          "sorting": 8,
+          "isActionfunc": 1,
+          "functionClaims": [],
+          "childs": []
+        }
+      ]
+    },
+    {
+      "funKey": 64,
+      "entityKey": 0,
+      "funEname": "Property Management",
+      "funAname": "أداره املاك",
+      "funRoute": "",
+      "funArgument": "",
+      "funLevel": 0,
+      "funParentKey": 0,
+      "funcIconsClass": "fa-solid fa-bars-progress",
+      "sorting": 3,
+      "isActionfunc": 0,
+      "functionClaims": [],
+      "childs": [
+        {
+          "funKey": 60,
+          "entityKey": 0,
+          "funEname": "General Receipt document",
+          "funAname": "سند قبض عام",
+          "funRoute": "/home/general-receipt/all",
+          "funArgument": "",
+          "funLevel": 1,
+          "funParentKey": 64,
+          "funcIconsClass": "",
+          "sorting": 0,
+          "isActionfunc": 1,
+          "functionClaims": [],
+          "childs": []
+        },
+        {
+          "funKey": 65,
+          "entityKey": 0,
+          "funEname": "Rent receipt document",
+          "funAname": "سند قبض ايجارات",
+          "funRoute": "/home/receipt-result/all",
+          "funArgument": "",
+          "funLevel": 1,
+          "funParentKey": 64,
+          "funcIconsClass": "",
+          "sorting": 2,
+          "isActionfunc": 1,
+          "functionClaims": [],
+          "childs": []
+        },
+        {
+          "funKey": 68,
+          "entityKey": 0,
+          "funEname": "Voucher Result",
+          "funAname": "سند صرف",
+          "funRoute": "/home/voucher-result/all",
+          "funArgument": "",
+          "funLevel": 1,
+          "funParentKey": 64,
+          "funcIconsClass": "",
+          "sorting": 3,
+          "isActionfunc": 1,
+          "functionClaims": [],
+          "childs": []
+        },
+        {
+          "funKey": 69,
+          "entityKey": 0,
+          "funEname": "Promissory Note",
+          "funAname": "سند لأمر",
+          "funRoute": "/home/order-receipt/all",
+          "funArgument": "",
+          "funLevel": 1,
+          "funParentKey": 64,
+          "funcIconsClass": "",
+          "sorting": 4,
+          "isActionfunc": 1,
+          "functionClaims": [],
+          "childs": []
+        },
+        {
+          "funKey": 73,
+          "entityKey": 0,
+          "funEname": "Customer Take",
+          "funAname": "سند صرف للعملاء",
+          "funRoute": "/home/customer-take/all",
+          "funArgument": "",
+          "funLevel": 1,
+          "funParentKey": 64,
+          "funcIconsClass": "",
+          "sorting": 5,
+          "isActionfunc": 1,
+          "functionClaims": [],
+          "childs": []
+        },
+        {
+          "funKey": 80,
+          "entityKey": 0,
+          "funEname": "Customer Installments",
+          "funAname": "مستحقات الإيجارات على العملاء",
+          "funRoute": "/home/rent-installments",
+          "funArgument": "",
+          "funLevel": 1,
+          "funParentKey": 64,
+          "funcIconsClass": "",
+          "sorting": 6,
+          "isActionfunc": 1,
+          "functionClaims": [],
+          "childs": []
+        },
+        {
+          "funKey": 107,
+          "entityKey": 0,
+          "funEname": "Maintenance Request",
+          "funAname": "طلب صيانة",
+          "funRoute": "/home/maintenance/all-maintenance-requests",
+          "funArgument": "",
+          "funLevel": 1,
+          "funParentKey": 64,
+          "funcIconsClass": "",
+          "sorting": 7,
+          "isActionfunc": 1,
+          "functionClaims": [],
+          "childs": []
+        },
+        {
+          "funKey": 106,
+          "entityKey": 0,
+          "funEname": "Outcome",
+          "funAname": "مصروفات الصيانة",
+          "funRoute": "/home/maintenance/outcome",
+          "funArgument": "",
+          "funLevel": 1,
+          "funParentKey": 64,
+          "funcIconsClass": "",
+          "sorting": 8,
+          "isActionfunc": 1,
+          "functionClaims": [],
+          "childs": []
+        }
+      ]
+    },
+    {
+      "funKey": 49,
+      "entityKey": 0,
+      "funEname": "Reports",
+      "funAname": "التقارير",
+      "funRoute": "",
+      "funArgument": "",
+      "funLevel": 0,
+      "funParentKey": 0,
+      "funcIconsClass": "fa-solid fa-file",
+      "sorting": 4,
+      "isActionfunc": 0,
+      "functionClaims": [],
+      "childs": [
+        {
+          "funKey": 58,
+          "entityKey": 0,
+          "funEname": "View reports",
+          "funAname": "مشاهده التقارير",
+          "funRoute": "/home/view-reports",
+          "funArgument": "",
+          "funLevel": 1,
+          "funParentKey": 49,
+          "funcIconsClass": "",
+          "sorting": 0,
+          "isActionfunc": 1,
+          "functionClaims": [
+            {
+              "cliamKey": 0,
+              "funKey": 58,
+              "cliams_LockId": 5
+            },
+            {
+              "cliamKey": 0,
+              "funKey": 58,
+              "cliams_LockId": 6
+            }
+          ],
+          "childs": []
+        },
+        {
+          "funKey": 57,
+          "entityKey": 0,
+          "funEname": "Design reports",
+          "funAname": "تصميم التقارير",
+          "funRoute": "/home/reports-desc",
+          "funArgument": "",
+          "funLevel": 1,
+          "funParentKey": 49,
+          "funcIconsClass": "",
+          "sorting": 1,
+          "isActionfunc": 1,
+          "functionClaims": [
+            {
+              "cliamKey": 0,
+              "funKey": 57,
+              "cliams_LockId": 1
+            },
+            {
+              "cliamKey": 0,
+              "funKey": 57,
+              "cliams_LockId": 2
+            },
+            {
+              "cliamKey": 0,
+              "funKey": 57,
+              "cliams_LockId": 3
+            },
+            {
+              "cliamKey": 0,
+              "funKey": 57,
+              "cliams_LockId": 4
+            }
+          ],
+          "childs": []
+        },
+        {
+          "funKey": 74,
+          "entityKey": 0,
+          "funEname": "Report group Setting",
+          "funAname": "تقرير مجموعة الإعداد",
+          "funRoute": "/home/report-group-Setting/all",
+          "funArgument": "",
+          "funLevel": 1,
+          "funParentKey": 49,
+          "funcIconsClass": "",
+          "sorting": 3,
+          "isActionfunc": 1,
+          "functionClaims": [],
+          "childs": []
+        },
+        {
+          "funKey": 75,
+          "entityKey": 0,
+          "funEname": "Assign reports to entity",
+          "funAname": "Assign reports to entity",
+          "funRoute": "/home/assign-reports-to-entity",
+          "funArgument": "",
+          "funLevel": 1,
+          "funParentKey": 49,
+          "funcIconsClass": "",
+          "sorting": 4,
+          "isActionfunc": 1,
+          "functionClaims": [],
+          "childs": []
+        },
+        {
+          "funKey": 76,
+          "entityKey": 0,
+          "funEname": "Assign reports to user",
+          "funAname": "Assign reports to user",
+          "funRoute": "/home/assign-reports-to-user",
+          "funArgument": "",
+          "funLevel": 1,
+          "funParentKey": 49,
+          "funcIconsClass": "",
+          "sorting": 5,
+          "isActionfunc": 1,
+          "functionClaims": [],
+          "childs": []
+        }
+      ]
+    },
+    {
+      "funKey": 1,
+      "entityKey": 0,
+      "funEname": "Control Panel",
+      "funAname": "لوحده التحكم",
+      "funRoute": "",
+      "funArgument": "",
+      "funLevel": 0,
+      "funParentKey": 0,
+      "funcIconsClass": "fa-solid fa-screwdriver-wrench",
+      "sorting": 12,
+      "isActionfunc": 0,
+      "functionClaims": [],
+      "childs": [
+        {
+          "funKey": 2,
+          "entityKey": 0,
+          "funEname": "Databases",
+          "funAname": "قواعد البيانات",
+          "funRoute": "/home/databases",
+          "funArgument": "string",
+          "funLevel": 1,
+          "funParentKey": 1,
+          "funcIconsClass": "fa-solid fa-database",
+          "sorting": 0,
+          "isActionfunc": 1,
+          "functionClaims": [
+            {
+              "cliamKey": 0,
+              "funKey": 2,
+              "cliams_LockId": 1
+            },
+            {
+              "cliamKey": 0,
+              "funKey": 2,
+              "cliams_LockId": 2
+            },
+            {
+              "cliamKey": 0,
+              "funKey": 2,
+              "cliams_LockId": 3
+            },
+            {
+              "cliamKey": 0,
+              "funKey": 2,
+              "cliams_LockId": 4
+            },
+            {
+              "cliamKey": 0,
+              "funKey": 2,
+              "cliams_LockId": 5
+            },
+            {
+              "cliamKey": 0,
+              "funKey": 2,
+              "cliams_LockId": 6
+            }
+          ],
+          "childs": []
+        },
+        {
+          "funKey": 3,
+          "entityKey": 0,
+          "funEname": "Ownership ",
+          "funAname": "الملكيات",
+          "funRoute": "/home/ownres/owenrs-data",
+          "funArgument": "string",
+          "funLevel": 1,
+          "funParentKey": 1,
+          "funcIconsClass": "",
+          "sorting": 1,
+          "isActionfunc": 1,
+          "functionClaims": [
+            {
+              "cliamKey": 0,
+              "funKey": 3,
+              "cliams_LockId": 1
+            },
+            {
+              "cliamKey": 0,
+              "funKey": 3,
+              "cliams_LockId": 2
+            },
+            {
+              "cliamKey": 0,
+              "funKey": 3,
+              "cliams_LockId": 3
+            },
+            {
+              "cliamKey": 0,
+              "funKey": 3,
+              "cliams_LockId": 4
+            },
+            {
+              "cliamKey": 0,
+              "funKey": 3,
+              "cliams_LockId": 5
+            },
+            {
+              "cliamKey": 0,
+              "funKey": 3,
+              "cliams_LockId": 6
+            }
+          ],
+          "childs": []
+        },
+        {
+          "funKey": 50,
+          "entityKey": 0,
+          "funEname": "Owner databases",
+          "funAname": "قواعد بيانات مالكى حقوق الملكيه",
+          "funRoute": "/home/ownres/assign-database",
+          "funArgument": "",
+          "funLevel": 1,
+          "funParentKey": 1,
+          "funcIconsClass": "",
+          "sorting": 2,
+          "isActionfunc": 1,
+          "functionClaims": [
+            {
+              "cliamKey": 0,
+              "funKey": 50,
+              "cliams_LockId": 2
+            }
+          ],
+          "childs": []
+        },
+        {
+          "funKey": 4,
+          "entityKey": 0,
+          "funEname": "Entities",
+          "funAname": "الوحدات",
+          "funRoute": "/home/entities/all",
+          "funArgument": "string",
+          "funLevel": 1,
+          "funParentKey": 1,
+          "funcIconsClass": "",
+          "sorting": 4,
+          "isActionfunc": 1,
+          "functionClaims": [
+            {
+              "cliamKey": 0,
+              "funKey": 4,
+              "cliams_LockId": 1
+            },
+            {
+              "cliamKey": 0,
+              "funKey": 4,
+              "cliams_LockId": 2
+            },
+            {
+              "cliamKey": 0,
+              "funKey": 4,
+              "cliams_LockId": 3
+            },
+            {
+              "cliamKey": 0,
+              "funKey": 4,
+              "cliams_LockId": 4
+            },
+            {
+              "cliamKey": 0,
+              "funKey": 4,
+              "cliams_LockId": 5
+            },
+            {
+              "cliamKey": 0,
+              "funKey": 4,
+              "cliams_LockId": 6
+            }
+          ],
+          "childs": []
+        },
+        {
+          "funKey": 5,
+          "entityKey": 0,
+          "funEname": "Security roles",
+          "funAname": "الادوار والصلاحيات",
+          "funRoute": "/home/roles/all",
+          "funArgument": "",
+          "funLevel": 1,
+          "funParentKey": 1,
+          "funcIconsClass": "",
+          "sorting": 5,
+          "isActionfunc": 1,
+          "functionClaims": [
+            {
+              "cliamKey": 0,
+              "funKey": 5,
+              "cliams_LockId": 1
+            },
+            {
+              "cliamKey": 0,
+              "funKey": 5,
+              "cliams_LockId": 2
+            },
+            {
+              "cliamKey": 0,
+              "funKey": 5,
+              "cliams_LockId": 3
+            },
+            {
+              "cliamKey": 0,
+              "funKey": 5,
+              "cliams_LockId": 4
+            },
+            {
+              "cliamKey": 0,
+              "funKey": 5,
+              "cliams_LockId": 5
+            },
+            {
+              "cliamKey": 0,
+              "funKey": 5,
+              "cliams_LockId": 6
+            }
+          ],
+          "childs": []
+        },
+        {
+          "funKey": 52,
+          "entityKey": 0,
+          "funEname": "Assign user to rol",
+          "funAname": "Assign user to rol",
+          "funRoute": "/home/users/edit-role",
+          "funArgument": "",
+          "funLevel": 1,
+          "funParentKey": 1,
+          "funcIconsClass": "",
+          "sorting": 6,
+          "isActionfunc": 1,
+          "functionClaims": [
+            {
+              "cliamKey": 0,
+              "funKey": 52,
+              "cliams_LockId": 2
+            }
+          ],
+          "childs": []
+        },
+        {
+          "funKey": 53,
+          "entityKey": 0,
+          "funEname": "Assign function to role",
+          "funAname": "تعيين وظيفة للدور",
+          "funRoute": "/home/asign-func-to-role",
+          "funArgument": "",
+          "funLevel": 1,
+          "funParentKey": 1,
+          "funcIconsClass": "",
+          "sorting": 7,
+          "isActionfunc": 1,
+          "functionClaims": [],
+          "childs": []
+        },
+        {
+          "funKey": 45,
+          "entityKey": 0,
+          "funEname": "Functions",
+          "funAname": "الخصائص",
+          "funRoute": "/home/functions/all",
+          "funArgument": "",
+          "funLevel": 1,
+          "funParentKey": 1,
+          "funcIconsClass": "",
+          "sorting": 999,
+          "isActionfunc": 1,
+          "functionClaims": [
+            {
+              "cliamKey": 0,
+              "funKey": 45,
+              "cliams_LockId": 1
+            },
+            {
+              "cliamKey": 0,
+              "funKey": 45,
+              "cliams_LockId": 2
+            },
+            {
+              "cliamKey": 0,
+              "funKey": 45,
+              "cliams_LockId": 3
+            },
+            {
+              "cliamKey": 0,
+              "funKey": 45,
+              "cliams_LockId": 4
+            },
+            {
+              "cliamKey": 0,
+              "funKey": 45,
+              "cliams_LockId": 5
+            }
+          ],
+          "childs": []
+        }
+      ]
+    },
+    {
+      "funKey": 71,
+      "entityKey": 0,
+      "funEname": "Setting",
+      "funAname": "الاعدادات",
+      "funRoute": "",
+      "funArgument": "",
+      "funLevel": 0,
+      "funParentKey": 0,
+      "funcIconsClass": "fa-solid fa-gear",
+      "sorting": 91,
+      "isActionfunc": 0,
+      "functionClaims": [],
+      "childs": [
+        {
+          "funKey": 72,
+          "entityKey": 0,
+          "funEname": "Phone index",
+          "funAname": "دليل  الهاتف",
+          "funRoute": "/home/phone_index_list/all",
+          "funArgument": "1",
+          "funLevel": 1,
+          "funParentKey": 71,
+          "funcIconsClass": "",
+          "sorting": 1,
+          "isActionfunc": 1,
+          "functionClaims": [
+            {
+              "cliamKey": 0,
+              "funKey": 72,
+              "cliams_LockId": 1
+            },
+            {
+              "cliamKey": 0,
+              "funKey": 72,
+              "cliams_LockId": 2
+            },
+            {
+              "cliamKey": 0,
+              "funKey": 72,
+              "cliams_LockId": 3
+            },
+            {
+              "cliamKey": 0,
+              "funKey": 72,
+              "cliams_LockId": 4
+            },
+            {
+              "cliamKey": 0,
+              "funKey": 72,
+              "cliams_LockId": 5
+            },
+            {
+              "cliamKey": 0,
+              "funKey": 72,
+              "cliams_LockId": 6
+            }
+          ],
+          "childs": []
+        },
+        {
+          "funKey": 103,
+          "entityKey": 0,
+          "funEname": "SMS Form",
+          "funAname": "الصيغ الجاهزة لرسائل الجوال",
+          "funRoute": "/home/sms/sms-form-all",
+          "funArgument": "",
+          "funLevel": 1,
+          "funParentKey": 71,
+          "funcIconsClass": "",
+          "sorting": 2,
+          "isActionfunc": 1,
+          "functionClaims": [],
+          "childs": []
+        },
+        {
+          "funKey": 79,
+          "entityKey": 0,
+          "funEname": "Schedule",
+          "funAname": "جدول المواعيد",
+          "funRoute": "/home/schedule/all",
+          "funArgument": "",
+          "funLevel": 1,
+          "funParentKey": 71,
+          "funcIconsClass": "",
+          "sorting": 2,
+          "isActionfunc": 1,
+          "functionClaims": [],
+          "childs": []
+        },
+        {
+          "funKey": 104,
+          "entityKey": 0,
+          "funEname": "SMS Settings",
+          "funAname": "اعدادات الرسائل النصية",
+          "funRoute": "/home/sms/settings",
+          "funArgument": "",
+          "funLevel": 1,
+          "funParentKey": 71,
+          "funcIconsClass": "",
+          "sorting": 3,
+          "isActionfunc": 1,
+          "functionClaims": [],
+          "childs": []
+        },
+        {
+          "funKey": 105,
+          "entityKey": 0,
+          "funEname": "SMS Service",
+          "funAname": "خدمة رسائل الجوال",
+          "funRoute": "/home/sms/sms-service",
+          "funArgument": "",
+          "funLevel": 1,
+          "funParentKey": 71,
+          "funcIconsClass": "",
+          "sorting": 4,
+          "isActionfunc": 1,
+          "functionClaims": [],
+          "childs": []
+        }
+      ]
+    }
+  ]
